@@ -1,144 +1,66 @@
-/* Estilos globales */
-body {
-    margin: 0;
-    padding: 0;
-}
-
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    text-align: center; /* Centra el contenido del header */
 }
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+header img.logo {
+    margin-top: 5vw; /* Margen superior */
+    margin-bottom: 1vw; /* Margen inferior */
 }
-
-nav ul li {
+header nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 10px; /* Espacio entre elementos del menu */
 }
-
-nav ul li a {
-    color: #fff;
+header nav ul li a:hover {
+    background-color: #6b1aff; /* Color morado oscuro cuando se pasa el mouse */
+}
+.custom-button {
+    background-color: #cf92db; /* Personaliza botones de menu nav */
+    color: white;
+    border: none;
+    border-radius: 25%;
+    text-align: center;
     text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+    transition-duration: 0.4s; 
+    cursor: pointer;
 }
 
-.home-section {
-    overflow: hidden; /* Limpiar los floats */
-    padding: 50px 0;
-    text-align: center;
+.purple-text {
+    color: rgb(122, 7, 133); /* Cambia el color a morado */
 }
-
-.left-content {
-    width: 50%;
-    float: left;
-    text-align: left; /* Alinear el texto a la izquierda */
-    margin: 50px;
-    text-align: center;
-    
-}
-
-.right-content {
-    width: 50%;
-    float: right;
-}
-
-.left-content img {
-    display: block;
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
-    width: 350px;
-}
-
-.right-content img {
-    display: block;
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
-}
-
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-footer nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-footer nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-footer nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.small-image {
-    width: 250px;
-}
-
-
-
 .about-section {
     text-align: center; /* Esto centrará horizontalmente el contenido dentro del div */
 }
-
 .about-section img {
     display: inline-block; /* Esto permite que el margen automático funcione correctamente */
     margin: 0 auto; /* Esto centra la imagen horizontalmente */
 }
-
-
-
-
-
-
-
 .tattoo-section {
     text-align: center;
     margin-bottom: 20px; /* Espacio entre la imagen y el botón */
 }
-
-.portfolio-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.pink-button { /* H1 de tatto station */
+    background-color: pink;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* Relación de aspecto 16:9 (divide 9 entre 16 = 0.5625) */
 }
 
-.portfolio-button:hover {
-    background-color: #555;
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; /* Opcional: elimina el borde del iframe */
 }
 
-
-
-.faq-section {
-    max-width: 800px; /* Establece el ancho máximo de la sección */
-    margin: 100px auto 0; /* Centra la sección horizontalmente */
-    text-align: left; /* Alinea el texto a la izquierda */
-}
-
-
-
-
-
-.contact-section {
-    text-align: center; 
-}
-
-.form-container {
-    display: inline-block; 
-    text-align: left; 
-}
