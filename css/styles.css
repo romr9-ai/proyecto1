@@ -26,7 +26,6 @@ header nav ul li a:hover {
     transition-duration: 0.4s; 
     cursor: pointer;
 }
-
 .purple-text {
     color: rgb(122, 7, 133); /* Cambia el color a morado */
 }
@@ -54,7 +53,6 @@ header nav ul li a:hover {
     width: 100%;
     padding-top: 56.25%; /* Relación de aspecto 16:9 (divide 9 entre 16 = 0.5625) */
 }
-
 .iframe-container iframe {
     position: absolute;
     top: 0;
