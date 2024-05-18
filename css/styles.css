@@ -27,10 +27,22 @@ header nav ul li a:hover {
     display: inline-block;
     font-size: 16px;
     margin-top: 1vw;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
     transition-duration: 0.4s; 
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        margin-bottom: .5px; /* Reduce el espacio entre los botones */
+    }
+    
+    .custom-button {
+        margin-top: 1px; /* Ajusta el margen superior */
+        margin-bottom: 1px; /* Ajusta el margen inferior */
+    }
+}
+
 
 .purple-text {
     color: rgb(122, 7, 133); /* Cambia el color a morado */
