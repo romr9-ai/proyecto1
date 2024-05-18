@@ -75,80 +75,122 @@ header nav ul li a:hover {
 }
 
 .carousel-image {
-    width: 20%; /* Adjust the width as needed */
-    height: 10%; /* Maintain aspect ratio */
+    width: 60%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+.img-tattoo1 { /* imagenen 1 de acerca de */
+    max-height: 450px;
+    max-width: 300px;
+}
+.img-tattoo2 { /* imagenen 2 de acerca de */
+    max-height: 300px;
+    max-width: 450px;
+}
+.zona-creativa-heading { /* texto de tattoo */
+    margin-top: 1vw;
+    margin-bottom: 3vw;
+}
+.col-bg-light {
+    background-color: #f8f9fa; /* bg-light equivalent */
+    padding: 1.5rem; /* p-4 equivalent */
+    border-radius: .25rem; /* rounded equivalent */
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15); /* shadow equivalent */
+}
+.img-art {
+    max-height: 70%;
+    max-width: 70%;
+}
+.carousel-image { /* estilo de carrusel */
+    width: 40%; 
+    height: 334px; 
+}
+
+.event-text { /* texto de community */
+    background-color: #d2c0e4;
+    margin-bottom: 8vw;
+    color: #3a09c2;
+    font-weight: bold;
+}
+.event-text:first-of-type { /* texto de community */
+    margin-top: 2vw; 
+}
+
+.iframe-container iframe {
+    width: 600px;
+    height: 450px;
+    border: 0;
 }
 
 /* Media Queries */
 
-/* Small devices (mobile phones, less than 576px) */
+/* dispositivos peque;os  (576px) */
 @media (max-width: 575.98px) {
     header img.logo {
-        margin-top: 10vw; /* Increase top margin for smaller screens */
+        margin-top: 10vw; 
     }
 
     .custom-button {
-        font-size: 14px; /* Decrease font size */
+        font-size: 14px; /*fuente peque;a */
         margin-top: 2vw;
         margin-bottom: 5vw;
     }
 
     .pink-button {
-        font-size: 14px; /* Decrease font size */
+        font-size: 14px; /* fuente peque;a */
         padding: 8px;
     }
 }
 
-/* Medium devices (tablets, 576px and up) */
+/* dispositivos medianos (tablets, 576px y mas) */
 @media (min-width: 576px) and (max-width: 991.98px) {
     header img.logo {
-        margin-top: 8vw; /* Adjust top margin */
+        margin-top: 8vw; 
     }
 
     .custom-button {
-        font-size: 15px; /* Adjust font size */
+        font-size: 15px; 
         margin-top: 1.5vw;
         margin-bottom: 4vw;
     }
 
     .pink-button {
-        font-size: 15px; /* Adjust font size */
+        font-size: 15px; 
         padding: 9px;
     }
 }
 
-/* Large devices (desktops, 992px and up) */
+/* dispositivos grandes (pc, 992px ) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     header img.logo {
-        margin-top: 6vw; /* Adjust top margin */
+        margin-top: 6vw; 
     }
 
     .custom-button {
-        font-size: 16px; /* Adjust font size */
+        font-size: 16px; 
         margin-top: 1vw;
         margin-bottom: 3vw;
     }
 
     .pink-button {
-        font-size: 16px; /* Adjust font size */
+        font-size: 16px; 
         padding: 10px;
     }
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
+/* Dispositivos extra grandes  (1200px ) */
 @media (min-width: 1200px) {
     header img.logo {
-        margin-top: 5vw; /* Default top margin */
+        margin-top: 5vw; 
     }
 
     .custom-button {
-        font-size: 16px; /* Default font size */
+        font-size: 16px; 
         margin-top: 1vw;
         margin-bottom: 3vw;
     }
 
     .pink-button {
-        font-size: 16px; /* Default font size */
+        font-size: 16px; 
         padding: 10px;
     }
 }
