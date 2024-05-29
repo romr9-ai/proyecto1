@@ -37,6 +37,10 @@ header {
     margin-bottom: 1vw;
     transition-duration: 0.4s;
     cursor: pointer;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
 }
 
 .purple-text {
@@ -122,6 +126,16 @@ header {
     &:first-of-type {
         margin-top: 2vw;
     }
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    transition: transform 0.5s ease-in-out;
 }
 
 // Media Queries
